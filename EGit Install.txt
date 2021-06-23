@@ -1,10 +1,38 @@
+
+
+#Intalando o Git no Windows
+_________________________________________________________________________________________________________________________________________________________________________________
+
+Permite armazenar os códigos no repositório Git para versionamento e acesso no GitHub.
+
+Como instalar:
+1. Abra o instalador
+2. Nome inicial do branch - Let Git decide "Master"
+3. Segue "Git from the command line and also from 3rd-party software"
+4. Marque "Use the OpenSSL library"
+5. Marque "Checkout Windows-style, commit Unix-style line endings"
+6. Marquei "Use MinTTy"
+7. Default (fast-forward or merge)
+8. Git credencial Manager core
+9. Enable file system caching
+
+
+
+
+
+
 #Intalando o Git dentro do STM32CUBE IDE
 _________________________________________________________________________________________________________________________________________________________________________________
 
-Permite armazenar os códigos no repositório Git para versionamento.
+Permite armazenar os códigos no repositório Git para versionamento e acesso no GitHub.
 
 Como instalar:
 1. Abra o STM32CUBE IDE
 2 Help-> Eclipse User Storage -> Open MarketPlace Favorites
 3. Buscar por "EGit - Git Integration for Eclipse 5.11.1"
 4. Instalar
+5. Na janela "Confirm Selected Features" Selecione todas as opções e "Confirm".
+6. Na janela "Review Licenses" aceite os termos.
+7. Aceite o pedido de reinicialização.
+
+
