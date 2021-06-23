@@ -1,4 +1,10 @@
 #Intalando o Git dentro do STM32CUBE IDE
 _________________________________________________________________________________________________________________________________________________________________________________
 
+Permite armazenar os códigos no repositório Git para versionamento.
 
+Como instalar:
+1. Abra o STM32CUBE IDE
+2 Help-> Eclipse User Storage -> Open MarketPlace Favorites
+3. Buscar por "EGit - Git Integration for Eclipse 5.11.1"
+4. Instalar
