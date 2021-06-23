@@ -37,3 +37,4 @@ Como instalar:
 3. A chave SSH está no arquivo C:\Users\nome-do-seu-usuario.ssh\id_rsa.pub.
 4. Abrir esse arquivo e copiar toda a chave 
 5. No GitHUb entrar no perfil do usuário e entrar em "configurações/SSH and GPG Keys"
+6. Clique em New SSH Key e cole a chave copiada.
