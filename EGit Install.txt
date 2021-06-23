@@ -17,10 +17,6 @@ Como instalar:
 9. Enable file system caching
 
 
-
-
-
-
 #Intalando o Git dentro do STM32CUBE IDE
 _________________________________________________________________________________________________________________________________________________________________________________
 
@@ -35,4 +31,6 @@ Como instalar:
 6. Na janela "Review Licenses" aceite os termos.
 7. Aceite o pedido de reinicialização.
 
+# Associando Git com Github
 
+1. Inicie o GIT BASH e digite ssh-keygen -t rsa -C "seu-email@dominio.com"
