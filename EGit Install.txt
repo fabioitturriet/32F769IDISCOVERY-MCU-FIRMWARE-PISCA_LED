@@ -1,5 +1,4 @@
 
-
 #Intalando o Git no Windows
 _________________________________________________________________________________________________________________________________________________________________________________
 
@@ -34,3 +33,7 @@ Como instalar:
 # Associando Git com Github
 
 1. Inicie o GIT BASH e digite ssh-keygen -t rsa -C "seu-email@dominio.com"
+2. Vai pressionando enter para a geração da chave de acesso
+3. A chave SSH está no arquivo C:\Users\nome-do-seu-usuario.ssh\id_rsa.pub.
+4. Abrir esse arquivo e copiar toda a chave 
+5. No GitHUb entrar no perfil do usuário e entrar em "configurações/SSH"
