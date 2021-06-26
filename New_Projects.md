@@ -1,6 +1,25 @@
-# Maneiras de criar novos Projetos
-Autor: Fábio Itturriet  
+# Maneiras de criar ou clonar novos Projetos
+AutoresFábio Itturriet e Patrick Morás
+Data: 26/06/2021
 Versão: STM32Cube 1.6.1
+
+# Clonando Projetos do GitHUB de dentro do Cube IDE
+
+Com o Cube IDE aberto, clique na aba "Window" 
+
+1. Clique na Opção Show View > Other...
+2. Selecionar Git > Git Repositories
+
+Uma janela abrirá na parte inferior à direita com as seguintes opções:
+
+![image](https://user-images.githubusercontent.com/86316296/123525033-7de3e500-d6a4-11eb-8575-15e311d8d85b.png)
+
+Clicar na opção "Clone a git repository"
+
+![image](https://user-images.githubusercontent.com/86316296/123525198-53465c00-d6a5-11eb-9c47-59b6a6c0754d.png)
+
+No campo URL insira o link do repositório que pretende clonar.
+
 
 # Importando examplos no STM32Cube IDE
 
