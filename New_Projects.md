@@ -47,4 +47,4 @@ Vídeo Introdutório: https://www.youtube.com/watch?v=eIrTYMl7fD0
 
 # Curiosidades sobre o STM32CubeIDE
 
-É o primeiro ambiente de desenvolvimento integrado gratuíto da ST. Antes de seu lançamento, os desenvolvedores usando ambientes de terceiros como o IAR e o Arm Keil.Existia ainda a opção de usar o SW4STM32 como opção gratuíta de desenvolvimento.
+É o primeiro ambiente de desenvolvimento integrado gratuíto da ST. Antes de seu lançamento, os desenvolvedores usando ambientes de terceiros como o IAR e o Arm Keil. Existia ainda a opção de usar o SW4STM32 como opção gratuíta de desenvolvimento.
