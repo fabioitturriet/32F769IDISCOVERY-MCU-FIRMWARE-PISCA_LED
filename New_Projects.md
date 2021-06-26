@@ -1,7 +1,7 @@
-# Maneiras de criar ou clonar novos Projetos
-AutoresFábio Itturriet e Patrick Morás
-Data: 26/06/2021
-Versão: STM32Cube 1.6.1
+# Maneiras de criar ou clonar novos Projetos  
+AutoresFábio Itturriet e Patrick Morás  
+Data: 26/06/2021  
+Versão: STM32Cube 1.6.1   
 
 # Clonando Projetos do GitHUB de dentro do Cube IDE
 
@@ -45,3 +45,6 @@ Permite visualizar as variáveis em componentes gráficos como Gauges (medidores
 Link: https://www.st.com/en/development-tools/stm32cubemonitor.html  
 Vídeo Introdutório: https://www.youtube.com/watch?v=eIrTYMl7fD0
 
+# Curiosidades sobre o STM32CubeIDE
+
+É o primeiro ambiente de desenvolvimento integrado gratuíto da ST. Antes de seu lançamento, os desenvolvedores usando ambientes de terceiros como o IAR e o Arm Keil.Existia ainda a opção de usar o SW4STM32 como opção gratuíta de desenvolvimento.
