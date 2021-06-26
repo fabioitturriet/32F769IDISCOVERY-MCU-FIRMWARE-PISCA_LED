@@ -16,3 +16,13 @@ Sequencia de Passos:
 6. Escolha o projeto.  
 7. "Finish"  
   
+  
+# Ferramentas interessantes
+
+**STMCube32Monitor**
+
+Permite visualizar as variáveis em componentes gráficos como Gauges (medidores) de temperatura e etc;
+
+Link: https://www.st.com/en/development-tools/stm32cubemonitor.html  
+Vídeo Introdutório: https://www.youtube.com/watch?v=eIrTYMl7fD0
+
