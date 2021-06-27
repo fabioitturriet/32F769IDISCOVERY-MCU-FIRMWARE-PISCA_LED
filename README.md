@@ -19,6 +19,8 @@ ________________________________________________________________________________
 
 # Configuração da Plataforma
 
+Descrição da configuração da plataforma atravéz do CubeMX integrado na IDE STM32Cube, configurações não especificadas  estão definidas como padrão 
+para geração do código.
 
 
 _____________________________________________________________________________________________________________________________________________
