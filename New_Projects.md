@@ -6,8 +6,8 @@ Versão: STM32Cube 1.6.1
 ## Extensões necessárias para integração STM32CubeIDE e o GitHub
 
 No cube IDE é necessário ter duas extensões instaladas para se ter acesso as ferramentas de integração
--Egit
--Gitflow Nightly
+*Egit
+*Gitflow Nightly
 
 Para isso devemos acessar o mercado de soluções do eclipse
 
