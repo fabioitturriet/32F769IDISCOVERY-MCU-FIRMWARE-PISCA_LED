@@ -23,7 +23,7 @@ imagem
 
 imagem
 
-# Clonando Projetos do GitHUB de dentro do Cube IDE
+## Clonando Projetos do GitHUB de dentro do Cube IDE
 
 Com o Cube IDE aberto, clique na aba "Window" 
 
@@ -46,7 +46,7 @@ No campo URL insira o link do repositório que pretende clonar. Após os arquivo
 O comando "commit" é utilizado para salvar uma nova versão do projeto dentro do repositório local, lembrando que o repositório local pode ser criado manualmente e também é criado automaticamente ao clonar um projeto do GitHub, a escolha do repositório para o commit é feita pelo usuário.
 Feito o commit para o repositório local é possível utilizar o comando "Push" para enviar as atualizações para o repositório online, ou seja, pro GitHub.
 
-# Importando examplos no STM32Cube IDE
+## Importando examplos no STM32Cube IDE
 
 Os exemplos estão armazanados no GitHUb da fabricante (ST). 
 https://github.com/STMicroelectronics/STM32CubeF7/tree/master/Projects/STM32F769I-Discovery/Examples
@@ -61,7 +61,7 @@ Sequencia de Passos:
 7. "Finish"  
   
   
-# Ferramentas interessantes
+## Ferramentas interessantes
 
 **STMCube32Monitor**
 
@@ -70,6 +70,6 @@ Permite visualizar as variáveis em componentes gráficos como Gauges (medidores
 Link: https://www.st.com/en/development-tools/stm32cubemonitor.html  
 Vídeo Introdutório: https://www.youtube.com/watch?v=eIrTYMl7fD0
 
-# Curiosidades sobre o STM32CubeIDE
+## Curiosidades sobre o STM32CubeIDE
 
 É o primeiro ambiente de desenvolvimento integrado gratuíto da ST. Antes de seu lançamento, os desenvolvedores usando ambientes de terceiros como o IAR e o Arm Keil. Existia ainda a opção de usar o SW4STM32 como opção gratuíta de desenvolvimento.
