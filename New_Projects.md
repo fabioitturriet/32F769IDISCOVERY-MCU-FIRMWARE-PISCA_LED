@@ -3,6 +3,26 @@ AutoresFábio Itturriet e Patrick Morás
 Data: 26/06/2021  
 Versão: STM32Cube 1.6.1   
 
+## Extensões necessárias para integração STM32CubeIDE e o GitHub
+
+No cube IDE é necessário ter duas extensões instaladas para se ter acesso as ferramentas de integração
+-Egit
+-Gitflow Nightly
+
+Para isso devemos acessar o mercado de soluções do eclipse
+
+1. Vá até a aba Help > Eclipse Marketplace...
+2. Na guia Search pesquise por "Egit"
+3. Instale o "Egit - Git Integration for Eclipse"
+
+imagem 
+
+4. Concluindo a instalação volte em "Eclipse Marketplace"
+5. Na aba "Installed" é possivel ver o Egit já instalado juntamente com o Gitflow Nightly
+6. Nesta mesma aba clique em "Update" para atualizar o Gitflow Nightly
+
+imagem
+
 # Clonando Projetos do GitHUB de dentro do Cube IDE
 
 Com o Cube IDE aberto, clique na aba "Window" 
@@ -18,8 +38,13 @@ Clicar na opção "Clone a git repository"
 
 ![image](https://user-images.githubusercontent.com/86316296/123525198-53465c00-d6a5-11eb-9c47-59b6a6c0754d.png)
 
-No campo URL insira o link do repositório que pretende clonar.
+No campo URL insira o link do repositório que pretende clonar. Após os arquivos serem baixados, será possivel visualizar o Repositorio na janela "Git Repositories". Para adicionar algum projeto do repositorio ao explorador de projetos da IDE, basta clicar com o botão direito no arquivo do repositório e pressionar em "Import Projects...", com isso é possivel trabalhar em cima do projeto clonado.
 
+## Commit e Push de dentro do Cube IDE
+
+##### Descrição breve dos comandos Commit e Push
+O comando "commit" é utilizado para salvar uma nova versão do projeto dentro do repositório local, lembrando que o repositório local pode ser criado manualmente e também é criado automaticamente ao clonar um projeto do GitHub, a escolha do repositório para o commit é feita pelo usuário.
+Feito o commit para o repositório local é possível utilizar o comando "Push" para enviar as atualizações para o repositório online, ou seja, pro GitHub.
 
 # Importando examplos no STM32Cube IDE
 
