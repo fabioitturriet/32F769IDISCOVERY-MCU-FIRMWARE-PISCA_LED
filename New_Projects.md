@@ -25,6 +25,26 @@ Para isso devemos acessar o mercado de soluções do eclipse
 <img src="https://user-images.githubusercontent.com/86391684/123888719-7c2b5300-d92a-11eb-90a8-edfd57c3f5cf.png" width="500" />
 
 
+## Configurando o Git no Cube IDE
+
+A primeira cofiguração a ser feita é associar um nome de usuário e um email ao git no Cube IDE, isso será utilizado como identificação do autor de procedimento como o Commit e push
+
+1. Dentro do Cube clique em Window > Preferences
+
+A seguinte tela surgirá
+
+<img src="https://user-images.githubusercontent.com/86391684/123901851-25317800-d942-11eb-8cff-975409a02426.png" width="500" />
+
+2. Siga em Team > Git > Configuration 
+
+Na guia "User Settings" teremos
+
+<img src="https://user-images.githubusercontent.com/86391684/123902239-e3550180-d942-11eb-9bc5-0db2516cce59.png" width="500" />
+
+3. Clique em "Add Entry...", em "Key" digite *user.name*, e no campo "Value" digite o seu nome
+4. Clique novamente em "Add Entry...", em "Key" digite *user.email*, e no campo "Value" digite o seu email
+
+
 ## Clonando Projetos do GitHUB de dentro do Cube IDE
 
 Com o Cube IDE aberto, clique na aba "Window" 
