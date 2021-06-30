@@ -22,7 +22,7 @@ Para isso devemos acessar o mercado de soluções do eclipse
 5. Na aba "Installed" é possivel ver o Egit já instalado juntamente com o Gitflow Nightly
 6. Nesta mesma aba, caso surja a opção, clique em "Update" para atualizar o Gitflow Nightly 
 
-![image](https://user-images.githubusercontent.com/86391684/123888719-7c2b5300-d92a-11eb-90a8-edfd57c3f5cf.png)
+<img src="https://user-images.githubusercontent.com/86391684/123888719-7c2b5300-d92a-11eb-90a8-edfd57c3f5cf.png" width="650" />
 
 
 ## Clonando Projetos do GitHUB de dentro do Cube IDE
@@ -55,7 +55,7 @@ obs.: Essa descrição parte da premissa que se tenha a última versão de um pr
 
 Desta vez, ao clonar o repositório, insira seus dados de login ao GitHub nas opção de "Authentication"
 
-![image](https://user-images.githubusercontent.com/86391684/123891989-235eb900-d930-11eb-88df-ef1717aafda0.png)
+<img src="https://user-images.githubusercontent.com/86391684/123891989-235eb900-d930-11eb-88df-ef1717aafda0.png" width="650" />
 
 Feito as etapas anteriores, já temos o repositorio clonado que se deseja trabalhar, lembrando que podemos visualiza-lo na aba "Git Repositories". Seguinte crie um projeto no Cube IDE, ou caso queira enviar um projeto existente visualize-o na guia "Project Explorer", podemos então dar commit pro repositório local e um push para o GitHub
 
