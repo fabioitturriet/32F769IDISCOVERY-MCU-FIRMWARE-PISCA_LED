@@ -16,7 +16,7 @@ Para isso devemos acessar o mercado de soluções do eclipse
 2. Na guia Search pesquise por "Egit"
 3. Instale o "Egit - Git Integration for Eclipse"
 
-![image](https://user-images.githubusercontent.com/86391684/123888352-afb9ad80-d929-11eb-82f4-50ef6a981958.png)
+<img src="https://user-images.githubusercontent.com/86391684/123888352-afb9ad80-d929-11eb-82f4-50ef6a981958.png" width="100" height="100">
 
 4. Concluindo a instalação volte em "Eclipse Marketplace"
 5. Na aba "Installed" é possivel ver o Egit já instalado juntamente com o Gitflow Nightly
@@ -32,7 +32,7 @@ Com o Cube IDE aberto, clique na aba "Window"
 1. Clique na Opção Show View > Other...
 2. Selecionar Git > Git Repositories
 
-Uma janela abrirá na parte inferior à direita com as seguintes opções:
+Uma janela abrirá na parte inferior à direita com as seguintes opções
 
 ![image](https://user-images.githubusercontent.com/86316296/123525033-7de3e500-d6a4-11eb-8575-15e311d8d85b.png)
 
