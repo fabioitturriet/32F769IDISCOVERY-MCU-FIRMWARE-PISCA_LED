@@ -16,7 +16,7 @@ Para isso devemos acessar o mercado de soluções do eclipse
 2. Na guia Search pesquise por "Egit"
 3. Instale o "Egit - Git Integration for Eclipse"
 
-<img src="https://user-images.githubusercontent.com/86391684/123888352-afb9ad80-d929-11eb-82f4-50ef6a981958.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/86391684/123888352-afb9ad80-d929-11eb-82f4-50ef6a981958.png" width="800" height="450">
 
 4. Concluindo a instalação volte em "Eclipse Marketplace"
 5. Na aba "Installed" é possivel ver o Egit já instalado juntamente com o Gitflow Nightly
