@@ -51,7 +51,7 @@ Feito o commit para o repositório local é possível utilizar o comando "Push" 
 
 obs.: Essa descrição parte da premissa que se tenha a última versão de um projeto em seu repositório local, projeto este de sua autoria no GitHub, ou a sua conta tenha acesso para edita-lo. No exemplo foi criado um projeto no GitHub apenas com o arquivo README.md:
 
-![image](https://user-images.githubusercontent.com/86391684/123891353-2c9b5600-d92f-11eb-8443-c86b26193cfb.png)
+<img src="https://user-images.githubusercontent.com/86391684/123891353-2c9b5600-d92f-11eb-8443-c86b26193cfb.png" width="900" />
 
 Desta vez, ao clonar o repositório, insira seus dados de login ao GitHub nas opção de "Authentication"
 
@@ -70,11 +70,11 @@ Surgirá um ponto de interrogação no ícone de seu projeto indicando que ele e
 
 Abrirá a aba "Git Staging". Nesta aba, seguindo a analogia do contêiner, adicionaremos o conteúdo nele para então lacra-lo, para isto basta selecionar os arquivos de "Unstaged Changes" e move-los para "staged Changes". Em "Commit Message" escreva uma pequena descrição do que tem no "container", essa mensagem auxiará no controle de versão do GitHub, por exemplo dizendo, num todo, o que foi adicionado a um código de programação. clique em "Commit and Push" para prosseguir
 
-![commit e push pelo CubeIDE](https://user-images.githubusercontent.com/86391684/123897843-85bcb700-d93a-11eb-8162-ef5bb2df766c.jpg)
+<img src="https://user-images.githubusercontent.com/86391684/123897843-85bcb700-d93a-11eb-8162-ef5bb2df766c.jpg" width="900" />
 
 Se tudo ocorrer bem o projeto surgira no GitHub 
 
-![image](https://user-images.githubusercontent.com/86391684/123898205-4d69a880-d93b-11eb-981e-ff87044259a6.png)
+<img src="https://user-images.githubusercontent.com/86391684/123898205-4d69a880-d93b-11eb-981e-ff87044259a6.png" width="900" />
 
 
 ## Importando examplos no STM32Cube IDE
