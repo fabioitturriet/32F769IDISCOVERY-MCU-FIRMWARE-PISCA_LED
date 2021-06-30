@@ -16,13 +16,13 @@ Para isso devemos acessar o mercado de soluções do eclipse
 2. Na guia Search pesquise por "Egit"
 3. Instale o "Egit - Git Integration for Eclipse"
 
-<img src="https://user-images.githubusercontent.com/86391684/123888352-afb9ad80-d929-11eb-82f4-50ef6a981958.png" width="650" />
+<img src="https://user-images.githubusercontent.com/86391684/123888352-afb9ad80-d929-11eb-82f4-50ef6a981958.png" width="500" />
 
 4. Concluindo a instalação volte em "Eclipse Marketplace"
 5. Na aba "Installed" é possivel ver o Egit já instalado juntamente com o Gitflow Nightly
 6. Nesta mesma aba, caso surja a opção, clique em "Update" para atualizar o Gitflow Nightly 
 
-<img src="https://user-images.githubusercontent.com/86391684/123888719-7c2b5300-d92a-11eb-90a8-edfd57c3f5cf.png" width="650" />
+<img src="https://user-images.githubusercontent.com/86391684/123888719-7c2b5300-d92a-11eb-90a8-edfd57c3f5cf.png" width="500" />
 
 
 ## Clonando Projetos do GitHUB de dentro do Cube IDE
