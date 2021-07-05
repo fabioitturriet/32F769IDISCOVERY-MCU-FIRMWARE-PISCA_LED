@@ -7,8 +7,8 @@ Versão: STM32Cube 1.6.1
 ## Extensões necessárias para integração STM32CubeIDE e o GitHub
 
 No cube IDE é necessário ter duas extensões instaladas para se ter acesso as ferramentas de integração
-*Egit
-*Gitflow Nightly
+* Egit
+* Gitflow Nightly
 
 Para isso devemos acessar o mercado de soluções do eclipse
 
@@ -79,7 +79,7 @@ Desta vez, ao clonar o repositório, insira seus dados de login ao GitHub nas op
 
 Feito as etapas anteriores, já temos o repositorio clonado que se deseja trabalhar, lembrando que podemos visualiza-lo na aba "Git Repositories". Seguinte crie um projeto no Cube IDE, ou caso queira enviar um projeto existente visualize-o na guia "Project Explorer", podemos então dar commit pro repositório local e um push para o GitHub
 
-Na guia "Porject Explorer" clique com o botão direito em cima do projeto de sua escolha
+Na guia "Project Explorer" clique com o botão direito em cima do projeto de sua escolha
 
 1. Vá até Team > Share Project...
 2. Na aba de seleção "Repository", escolha o repositório que se dará o Push > Finish
@@ -91,6 +91,8 @@ Surgirá um ponto de interrogação no ícone de seu projeto indicando que ele e
 Abrirá a aba "Git Staging". Nesta aba, seguindo a analogia do contêiner, adicionaremos o conteúdo nele para então lacra-lo, para isto basta selecionar os arquivos de "Unstaged Changes" e move-los para "staged Changes". Em "Commit Message" escreva uma pequena descrição do que tem no "container", essa mensagem auxiará no controle de versão do GitHub, por exemplo dizendo, num todo, o que foi adicionado a um código de programação. clique em "Commit and Push" para prosseguir
 
 <img src="https://user-images.githubusercontent.com/86391684/123897843-85bcb700-d93a-11eb-8162-ef5bb2df766c.jpg" width="900" />
+
+**Relato de problema:** Em algumas situações os arquivos ficam travados na janela "Unstaged Changes", impossibilitando de movê-los para "staged Changes", este problema é um mistério ainda, uma solução parcial é reinstalar o Egit e o Gitflow Nightly.
 
 Se tudo ocorrer bem o projeto surgira no GitHub 
 
