@@ -3,6 +3,7 @@ Autores: Fábio Itturriet e Patrick Morás
 Data: 26/06/2021  
 Versão: STM32Cube 1.6.1   
 
+_________________________________________________________________________________________________________________________________________________________________________________
 
 ## Extensões necessárias para integração STM32CubeIDE e o GitHub
 
@@ -24,6 +25,7 @@ Para isso devemos acessar o mercado de soluções do eclipse
 
 <img src="https://user-images.githubusercontent.com/86391684/123888719-7c2b5300-d92a-11eb-90a8-edfd57c3f5cf.png" width="500" />
 
+_________________________________________________________________________________________________________________________________________________________________________________
 
 ## Configurando o Git no Cube IDE
 
@@ -44,6 +46,7 @@ Na guia "User Settings" teremos
 3. Clique em "Add Entry...", em "Key" digite *user.name*, e no campo "Value" digite o seu nome
 4. Clique novamente em "Add Entry...", em "Key" digite *user.email*, e no campo "Value" digite o seu email
 
+_________________________________________________________________________________________________________________________________________________________________________________
 
 ## Clonando Projetos do GitHUB de dentro do Cube IDE
 
@@ -62,6 +65,7 @@ Clicar na opção "Clone a git repository"
 
 No campo URL insira o link do repositório que pretende clonar. Após os arquivos serem baixados, será possivel visualizar o Repositorio na janela "Git Repositories". Para adicionar algum projeto do repositorio ao explorador de projetos da IDE, basta clicar com o botão direito no arquivo do repositório e pressionar em "Import Projects...", com isso é possivel trabalhar em cima do projeto clonado.
 
+_________________________________________________________________________________________________________________________________________________________________________________
 
 ## Commit e Push de dentro do Cube IDE
 
@@ -98,6 +102,7 @@ Se tudo ocorrer bem o projeto surgira no GitHub
 
 <img src="https://user-images.githubusercontent.com/86391684/123898205-4d69a880-d93b-11eb-981e-ff87044259a6.png" width="900" />
 
+_________________________________________________________________________________________________________________________________________________________________________________
 
 ## Importando examplos no STM32Cube IDE
 
@@ -113,7 +118,8 @@ Sequencia de Passos:
 6. Escolha o projeto.  
 7. "Finish"  
   
-  
+ _________________________________________________________________________________________________________________________________________________________________________________
+
 ## Ferramentas interessantes
 
 **STMCube32Monitor**
@@ -122,6 +128,8 @@ Permite visualizar as variáveis em componentes gráficos como Gauges (medidores
 
 Link: https://www.st.com/en/development-tools/stm32cubemonitor.html  
 Vídeo Introdutório: https://www.youtube.com/watch?v=eIrTYMl7fD0
+
+_________________________________________________________________________________________________________________________________________________________________________________
 
 ## Curiosidades sobre o STM32CubeIDE
 
