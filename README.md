@@ -6,6 +6,7 @@ ________________________________________________________________________________
 **Objetivo:** Esse projeto visa a configuração da plataforma STM32F769NI para piscar um dos leds da plataforma com intervalo de tempo de 1s.  
 **IDE=** STM32CUBE IDE v.1.6.1
 
+link para manual do HAL -> https://www.st.com/resource/en/user_manual/dm00189702-description-of-stm32f7-hal-and-lowlayer-drivers-stmicroelectronics.pdf
 _____________________________________________________________________________________________________________________________________________
 
 # Esquemático do Experimento
