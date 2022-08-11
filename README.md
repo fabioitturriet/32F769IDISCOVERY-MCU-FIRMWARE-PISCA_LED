@@ -17,7 +17,7 @@ Diagrama resumido das estapas do experimento
 
 ### Começando um novo projeto
 
-Inicialmente reproduzimos o STM32CubeIDE, na área de trabalho do Cube IDE criamos um novo projeto
+Inicialmente reproduzimos o STM32CubeIDE, na área de trabalho do Cube IDE criamos um novo projeto:
   
   1. Vá até a guia File > New > STM32 Project
 
@@ -38,11 +38,11 @@ Inicialmente reproduzimos o STM32CubeIDE, na área de trabalho do Cube IDE criam
 
 Antes da configuração da plataforma de fato, precisamos entender o que queremos que ela reproduza, nesse caso queremos piscar um LED!!!
 
-Como é visto no manual [Discovery kit with STM32F769NI MCU 3.0](https://www.st.com/en/evaluation-tools/32f769idiscovery.html#documentation) a plataforma conta com três leds destinado ao usuário 
+Como é visto no manual [Discovery kit with STM32F769NI MCU 3.0](https://www.st.com/en/evaluation-tools/32f769idiscovery.html#documentation) a plataforma conta com três leds destinado ao usuário.
 
 <img src="https://user-images.githubusercontent.com/86391684/124517747-24be3480-ddbb-11eb-9375-9ba392bfef0f.png" width="600" />
 
-Dentre os Leds, foi escolhido o LD1 para o experimento, no manual encontramos uma descrição mais detalhada dele
+Dentre os Leds, foi escolhido o LD1 para o experimento, no manual encontramos uma descrição mais detalhada dele.
 
 <img src="https://user-images.githubusercontent.com/86391684/124518066-e7a67200-ddbb-11eb-923a-d6cc93c4fa17.png" width="500" />
 
@@ -59,24 +59,24 @@ ________________________________________________________________________________
 Descrição da configuração da plataforma atravéz do CubeMX integrado na IDE STM32Cube, configurações não especificadas estão definidas como padrão 
 para geração do código.
 
-A partir de agora já temos a idéia do que será feito, e podemos prosseguir para a configuração do microcontrolador. Na área de trabalho inicial de configuração, precisamos adicionar como será feito a comunicação da plataforma e o computador, nesse caso pela linha serial USB 
+A partir de agora já temos a idéia do que será feito, e podemos prosseguir para a configuração do microcontrolador. Na área de trabalho inicial de configuração, precisamos adicionar como será feito a comunicação da plataforma e o computador, nesse caso pela linha serial USB:
 
   1. Na guia "System Core" clique em SYS > Debug > Serial Wire
 
 <img src="https://user-images.githubusercontent.com/86391684/124537839-070bc200-ddf1-11eb-8ccb-d9601a419d6e.png" width="800" />
 
-É preciso definir também uma fonte de *clock* para o *hardware*, foi utilizado o circuito oscilador externo HSE 
+É preciso definir também uma fonte de *clock* para o *hardware*, foi utilizado o circuito oscilador externo HSE: 
 
   2. Ainda em "System Core" vá em RCC
   3. Habilite o "High Speed Clock (HSE)" Como "Crystal/Ceramic Resonator"
 
 <img src="https://user-images.githubusercontent.com/86391684/124539281-869a9080-ddf3-11eb-9816-2cb537f7c4df.png" width="800" />
 
-Subsequente temos que configurar o pino conectado ao LD1, é possivel pesquisar por ele para ajudar a achar na vizualização dos pinos
+Subsequente temos que configurar o pino conectado ao LD1, é possivel pesquisar por ele para ajudar a achar na vizualização dos pinos.
 
 <img src="https://user-images.githubusercontent.com/86391684/124540467-d5e1c080-ddf5-11eb-84f7-64a5fbb77516.png" width="800" />
 
-O pino então será definido como um pino de saída, pois queremos mandar um sinal por ele
+O pino então será definido como um pino de saída, pois queremos mandar um sinal por ele:
 
   4. clique sobre o pino, selecione "GPIO_Output"
 
@@ -86,15 +86,15 @@ Assim finalizamos a configuração da plataforma. Podemos então salvar o projet
 
 ### Programação 
 
-Para esse projeto o código se resume a dois comandos "HAL" adicionado dentro do laço de repetição
+Para esse projeto o código se resume a dois comandos "HAL" adicionado dentro do laço de repetição:
 
 'HAL_GPIO_TogglePin(GPIOx, GPIO_PIN_x);'
 
-Essa função muda o nível lógico de um pino específico. O nível lógico vai para baixo caso esteja alto ou vice-versa, por isso a necessidade da função estar no laço de repetição. Em GPIOx é colocado a família de pinos utilizada, nesse caso a família "J" é a utilizada, em GPIO_PIN_x é adicionado o número do pino, pino 13 como descrito anteriormente. Portanto cada execução dessa função faz com que o LED apague ou ligue, em razão disso temos o LED piscando. Porém somente essa função acaba não realizando o que queremos (que o LED pisque em intervalos de 1 segundo), pela velocidade do *clock* o LED pisca tão rápido que é imperceptível, então devemos adicionar um atraso de tempo adequado no código
+Essa função muda o nível lógico de um pino específico. O nível lógico vai para baixo caso esteja alto ou vice-versa, por isso a necessidade da função estar no laço de repetição. Em GPIOx é colocado a família de pinos utilizada, nesse caso a família "J" é a utilizada, em GPIO_PIN_x é adicionado o número do pino, pino 13 como descrito anteriormente. Portanto cada execução dessa função faz com que o LED apague ou ligue, em razão disso temos o LED piscando. Porém somente essa função acaba não realizando o que queremos (que o LED pisque em intervalos de 1 segundo), pela velocidade do *clock* o LED pisca tão rápido que é imperceptível, então devemos adicionar um atraso de tempo adequado no código:
 
 'HAL_Delay(tempo)'
 
-Responsável por realizar o atraso essa função recebe como argumento o tempo em milissegundos. Dessa maneira temos o código pronto
+Responsável por realizar o atraso essa função recebe como argumento o tempo em milissegundos. Dessa maneira temos o código pronto.
 
 <img src="https://user-images.githubusercontent.com/86391684/124545125-d468c600-ddfe-11eb-8934-c9c0d20233f8.png" width="800" />
 
