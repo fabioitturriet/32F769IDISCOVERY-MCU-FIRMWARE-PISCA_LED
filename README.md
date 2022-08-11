@@ -59,7 +59,7 @@ ________________________________________________________________________________
 Descrição da configuração da plataforma atravéz do CubeMX integrado na IDE STM32Cube, configurações não especificadas estão definidas como padrão 
 para geração do código.
 
-A partir de agora já temos a idéia do que será feito, e podemos prosseguir para a configuração do microcontrolador. na área de trabalho inicial de configuração, precisamos adicionar como será feito a comunicação da plataforma e o computador, nesse caso pela linha serial USB 
+A partir de agora já temos a idéia do que será feito, e podemos prosseguir para a configuração do microcontrolador. Na área de trabalho inicial de configuração, precisamos adicionar como será feito a comunicação da plataforma e o computador, nesse caso pela linha serial USB 
 
   1. Na guia "System Core" clique em SYS > Debug > Serial Wire
 
@@ -86,17 +86,19 @@ Assim finalizamos a configuração da plataforma. Podemos então salvar o projet
 
 ### Programação 
 
-Para esse projeto o código se resume a dois comando "HAL" adicionado dentro do laço de repetição
+Para esse projeto o código se resume a dois comandos "HAL" adicionado dentro do laço de repetição
 
 'HAL_GPIO_TogglePin(GPIOx, GPIO_PIN_x);'
 
-Essa função muda o nível lógico de um pino específico. o nível lógico vai para baixo caso esteja alto ou vice-versa, por isso a necessidade da função estar no laço de repetição. em GPIOx é colocado a família de pinos utilizada, nesse caso a família "J" é a utilizada, em GPIO_PIN_x é adicionado o número do pino, pino 13 como descrito anteriormente. Portanto cada execução dessa função faz com que o led apague ou ligue, em razão disso temos o LED piscando. Porém somente essa função acaba não realizando o que queremos (que o led pisque em intervalos de 1 segundo), pela velocidade do *clock* o led pisca tão rápido que é imperceptível, então devemos adicionar um atraso de tempo adequado no código
+Essa função muda o nível lógico de um pino específico. O nível lógico vai para baixo caso esteja alto ou vice-versa, por isso a necessidade da função estar no laço de repetição. Em GPIOx é colocado a família de pinos utilizada, nesse caso a família "J" é a utilizada, em GPIO_PIN_x é adicionado o número do pino, pino 13 como descrito anteriormente. Portanto cada execução dessa função faz com que o LED apague ou ligue, em razão disso temos o LED piscando. Porém somente essa função acaba não realizando o que queremos (que o LED pisque em intervalos de 1 segundo), pela velocidade do *clock* o LED pisca tão rápido que é imperceptível, então devemos adicionar um atraso de tempo adequado no código
 
 'HAL_Delay(tempo)'
 
-Responsável por realizar o atraso essa função recebe como argumento o tempo em milissegundos. Dessa maneira tempo o código pronto
+Responsável por realizar o atraso essa função recebe como argumento o tempo em milissegundos. Dessa maneira temos o código pronto
 
 <img src="https://user-images.githubusercontent.com/86391684/124545125-d468c600-ddfe-11eb-8934-c9c0d20233f8.png" width="800" />
+
+Com a plataforma conectada ao computador, basta compilarmos e carregarmos o cógido.
 
 _____________________________________________________________________________________________________________________________________________
 
